@@ -33,7 +33,7 @@ func main() {
 
 	// Registrar las rutas
 	routes.RegisterCategoriaPreguntasRoutes(r)
-	routes.RegisterPreguntaFrecuenteRoutes(r)
+	
 
 	log.Println("Servidor corriendo en el puerto :8082")
 
